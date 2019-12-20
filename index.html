@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Calc Temperature</title>
+  <link rel="stylesheet" type="text/css" href="src/style.css">
+  <script src= "src/script.js"></script>
+
+</head>
+<body>
+
+<div id = "container">
+
+    <section id = "columnInput">
+      
+        <input id="input" type="text" placeholder="0" />
+        <br>
+        <select id= "selectOption" >
+          <option onclick="celsius()" value="celsius">Celsius</option>
+          <option onclick="fahrenheit()"value="fahrenheit">Fahrenheit</option>
+          <option onclick="kelvin()"value="kelvin">Kelvin</option>
+        </select>
+
+    </section>
+
+
+    <section id = "columnResult1">
+        
+        <h4 id="title1">Fahrenheit</h4>
+        <input id="resultFirst" disabled />
+      
+    </section>
+
+
+
+    <section id = "columnResult2">
+        
+        <h4 id="title2">Kelvin</h4>
+        <input id="resultSecond" disabled />     
+
+    </section>
+
+</div>
+
+</body>
+</html>
